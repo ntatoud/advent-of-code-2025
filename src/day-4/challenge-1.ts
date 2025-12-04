@@ -17,8 +17,6 @@ function getAdjacentRolls(grid: string[], pos: { x: number; y: number }) {
     .map((pos) => grid[pos.y]?.[pos.x])
     .filter((element) => element !== undefined && element === "@");
 
-  console.log(adjacentPositions.map((pos) => grid[pos.y]?.[pos.x]));
-
   return adjacentRolls.length;
 }
 
