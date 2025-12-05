@@ -42,8 +42,6 @@ export function isValidIdForNRepetition(stringId: string, n: number) {
     );
   }
 
-  // console.log(parts);
-
   return !areAllArrayElementEqual(parts);
 }
 
@@ -59,5 +57,3 @@ export function isValidIdForChallenge2(id: number) {
 
   return result;
 }
-
-console.log(areAllArrayElementEqual(["1", "1", "5"]));
